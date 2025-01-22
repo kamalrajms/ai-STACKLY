@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="pg10">
+        <div class="pg6">
+            <div class="Header">
+                <sub class="RightHead">
+                    <img src="assets/images/header/sitelogo.png" class="logo" />
+                </sub>
+                <sub class="LeftHead">
+                    <a href="trend.html">Trends</a>
+                    <a href="product.html">Products</a>
+                    <a href="priceing.html">Pricing</a>
+                    <a href="api.html">API</a>
+                    <a href="contactus.html">Contact us</a>
+                    <a href="signin.html">Sign In</a>
+                    <a href="signup.html"  id="underline-nav">Signup</a>
+                </sub>
+
+                <div class="nav-tog" onclick="openSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#5f6368">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="close" onclick="closeSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </div>
+                <a onclick="closeSidebar()" href="trend.html">Trends</a>
+                <a onclick="closeSidebar()" href="product.html" >Products</a>
+                <a onclick="closeSidebar()" href="priceing.html">Pricing</a>
+                <a onclick="closeSidebar()" href="api.html">API</a>
+                <a onclick="closeSidebar()" href="contactus.html">Contact us</a>
+                <a onclick="closeSidebar()" href="signin.html">Sign In</a>
+                <a onclick="closeSidebar()" href="signup.html">Signup</a>
+            </div>
+            <div class="pg5body">
+                <div class="pg5bodypart1">
+                    <div class="Title">
+                        <p>You’ll unlock endless possibilities to</p>
+                        <p>reimagine and transform any home using AI.</p>
+                    </div>
+                    <div class="pg7bodysub">
+                        <div class="pg7left">
+                            <div class="imgtit1">Get Your Personal AI</div>
+                            <div class="imgtit2">Interiors</div>
+                            <img src="assets/images/signup/img.jpg" class="home" />
+                            <div class="linecon">
+                                <div class="lightline">APPLY COUPON : </div>
+                                <div class="darkline">STACKLYAI</div>
+                            </div>
+                        </div>
+                        <div class="pg7right">
+                            <div class="account">Create an Account</div>
+                            <div class="signinlist">
+                                <div class="app">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fa-google" viewBox="0 0 488 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                                    <nav>Sign up with Google</nav>
+                                </div>
+                                <div class="app">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fa-apple" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+                                    <nav>Sign up with Apple</nav>
+                                </div>
+                                <div class="app">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="fa-facebook" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                                    <nav>Sign up with Facebook</nav>
+                                </div>
+                                <div class="orcontainer">
+                                    <div></div>
+                                    <nav class="or">OR</nav>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <div class="point">
+                                    <div class="pointname">Your email</div>
+                                    <input class="holder" placeholder="email@gmail.com" />
+                                </div>
+                                <div class="point">
+                                    <div class="pointname">password</div>
+                                    <input class="holder" placeholder="**********" />
+                                </div>
+                                <div class="point " id="subpoint">
+                                    <div class="coupond">Coupond</div>
+                                    <div class="apply">Apply</div>
+                                </div>
+                                <div class="point">
+                                    <button>Sign Up</button>
+                                </div>
+                                <div class="point centertext" id="subpoint">
+                                    <nav>Already have an account?</nav>
+                                    <nav style="color: #67c9a5; font-weight: 500;">Sign In</nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <img src="assets/images/footer/bot.PNG"/>
+        </div>
+        <div class="footer">
+            <div class="footer-right">
+                <div class="subfoot">
+                    <img src="assets/images/footer/sitelogo.png" class="footerlogo" />
+                    <nav>Automatically generate photo-like images of your
+
+                        desired spaces in seconds. Unleash the most advanced
+
+                        AI interior design tool to boost your productivity.
+                    </nav>
+                    <div class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fas-facebook" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fas-x-twitter" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fas-instagram" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="fas-whatsapp" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-left">
+                <div class="footleftsub">
+                    <div class="footerleftsub">
+                        <div>Home</div>
+                        <nav>Trends</nav>
+                        <nav>Pricing</nav>
+                        <nav>API</nav>
+                        <nav>Sign In</nav>
+                        <nav>Sign Up</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Terms & Policy</div>
+                        <nav>Terms of Services</nav>
+                        <nav>Privacy and Cookie Policy</nav>
+                        <nav>Cookie Settings</nav>
+                    </div>
+                    <div class="footerleftsub">
+                        <div>Contact Us</div>
+                        <nav>info@stacklyai.com</nav>
+                    </div>
+                    <div class="footerleftsub " id="leftsub">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy">
+            © 2023 Stackly AI | All Rights Reserved
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
